@@ -22,3 +22,6 @@ Please name each html file with the same name as the mockup you are replicating.
 - STRETCH GOAL 1: Add some styling using inline styles (in the style attribute of the element)
 - STRETCH GOAL 2: Add some styling using a separate CSS file
 - STRETCH GOAL 3: Use [Bootstrap CSS](https://getbootstrap.com/) to style them
+
+
+[My README](STYLE.md)
