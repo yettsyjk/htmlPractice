@@ -4,42 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Practice | Yettsy Knapp</title>
- 
-</head>
-<body>
-<div id="mainBody">
-    <nav class="navbar navbar-expand navbar-dark bg-dark" id="nav">
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-    <div id="header">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body style="height: 100%;">
+<div class="container-fluid" id="mainBody">
+<div class="container">
+<!-- ======================================Navigation Bar================================================= -->
+    <nav class="navbar navbar-expand-lg navStyle" id="nav">
+
+    <div class="container" id="header">
     <!-- Block Elements -->
     <span id="navHeader">My Webpage</span>
-   </div>
-        <div id="buttons">
-            <!-- Inline Element -->
-            <a href="#"><img src="./img/left.png" alt="huge left arrow" width="40px" height="40px"></a>
-            <a href="#"><img src="./img/right.png" alt="huge right arrow" width="40px" height="40px"></a>
-            <a href="#"><img src="./img/cancel.png" alt="huge cancel arrow" width="40px" height="40px"></a> 
-            <a href="#"><img src="./img/house.png" alt="huge home icon" width="40px" height="40px"></a>
-        </div>
-    
-    </nav>
-    <div id="inputFieldForm">
-        <input id="searchArea" type="text"/>
-        <input id="searchIconArea" type="text" placeholder="Search.." autocorrect="off" autocomplete="off"/>
-        <img src="./img/searchIcon.png" alt="search icon">
-        </div>
+   
+        <div class="container" id="buttons">
+        <ul class="navbar-nav ml-auto navList">
         
+            <!-- Inline Element -->
+           <li class="nav-item"><a href="#" class="nav-link"><img src="./img/left.png" alt="huge left arrow" width="40px" height="40px"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><img src="./img/right.png" alt="huge right arrow" width="40px" height="40px"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><img src="./img/cancel.png" alt="huge cancel arrow" width="40px" height="40px"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><img src="./img/house.png" alt="huge home icon" width="40px" height="40px"></a></li>
+         
+        </div>
+    </ul>
     
-    <div id="contentSection">
-        <pre> Galvanize Contact Information: 
-        Zubair: zubair.desai@galvanize.com 
-        Ellie: ellie@galvanize.com 
-        Matt: matt@galvanize.com 
-        </pre>
+   
+    <form class="form-horizontal has-search">
+      <div class="input-group" id="inputFieldForm">
+        <input id="searchArea" type="text"/>
+      <span class="fa fa-search form-control-feedback"></span>
+        <input class="form-control" id="searchIconArea" type="text" placeholder="Search.." autocorrect="off" autocomplete="off"/>
+     
+        </div>
+        </form>
+      
+       
+        </nav>
+    </div>
+    <div class="container" id="contentSection" style="flex: 1 0 auto;">
+    
+    <h2>My Awesome Table</h2>
+    <div class="table-responsive">
+       <table class="table table-hover table-bordered table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Firstname</th>
+      <th scope="col">Lastname</th>
+      <th scope="col">Petname</th>
+      <th scope="col">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">John</th>
+      <td>Doe</td>
+      <td>Fifi</td>
+      <td>Denver</td>
+    </tr>
+    <tr>
+      <th scope="row">Jane</th>
+      <td>Doe</td>
+      <td>Fido</td>
+      <td>Santa Fe</td>
+    </tr>
+    <tr>
+      <th scope="row">Jennifer</th>
+      <td>Smith</td>
+      <td>Pikachu</td>
+      <td>Los Angeles</td>
+    </tr>
+    <tr>
+      <th scope="row">Stephen</th>
+      <td>Hawkin</td>
+      <td>Furby</td>
+      <td>New York</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+     <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
     </div>
 </div>
-<div id="footer">
-    <h2>Hello Footer</h2>
-</div>
+
+<footer class="py-4 bg-dark text-white-50" style="flex-shrink: none; bottom: 0; position: fixed; width: 100%;">
+<div class="container text-center" id="footer">
+    <h2>Mockup5 &copy;</h2>
+    </div>
+    </footer>
+
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

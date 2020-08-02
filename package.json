@@ -1,0 +1,19 @@
+{
+  "name": "htmlpractice",
+  "version": "1.0.0",
+  "description": "Write the HTML necessary to match the mockup images. It does not need to be pixel perfect (just eyeball it) but it should be close, with font, layout, and spacing properly accounted for.  Feel free to use CSS to match the mockup as close as you can.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yettsyjk/htmlPractice.git"
+  },
+  "author": "Yettsy Knapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yettsyjk/htmlPractice/issues"
+  },
+  "homepage": "https://github.com/yettsyjk/htmlPractice#readme"
+}
